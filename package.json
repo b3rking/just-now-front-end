@@ -1,0 +1,14 @@
+{
+  "name": "just-now",
+  "version": "1.0.0",
+  "description": "e-commerce with deliveree system.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "berking (front-end)",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

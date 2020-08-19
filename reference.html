@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reference for css classes!</title>
+    <style>
+        /** {
+            margin: 0;
+            padding: 0;
+        }*/
+        .value1 {
+            background-color: #FFFFFF;
+        }
+        .value2 {
+            background-color: #DFDFDF;
+        }
+        .value3 {
+            background-color: #202020;
+        }
+        .value4 {
+            background-color: #404040;
+        }
+        .value5 {
+            background-color: #568EA3;
+        }
+        .value6 {
+            background-color: #68C3D4;
+        }
+        .value7 {
+            background-color: #E83030;
+        }
+        .value8 {
+            background-color: rgba(232, 48, 48, 0.6);
+        }
+        .value9 {
+            background-color: #0bd11f;
+        }
+        .value10 {
+            background-color: rgba(42, 77, 20, 0.81);
+        }
+
+        .value {
+            width: 200px;
+            height: 50px;
+            margin-left: 100px;
+            display: flex;
+            align-items: center;
+        }
+
+        .variable-box {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            justify-content: center;
+        }
+        h1, h2, h3 {
+            text-align: center;
+            text-decoration: underline;
+            margin-top: 20px;
+        }
+        ol {
+            text-align: center;
+        }
+        .important {
+            font-weight: bold;
+            font-size: 20px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>Reference for css classes and variables!</h1>
+    <ol type="1"><h3>Some notes about this reference!</h3>
+        <li>every variables is followed with his actual value!</li>
+        <li class="important">note that 1em is equal to 10px!</li>
+    </ol>
+    <h2>1.colors!</h2>
+    <div class="variables-colors">
+        <div class="variable-box">
+            <p class="variable-name1">$background-color</p>
+            <div class="value value1" style="border: 1px solid black"></div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name2">$background-color-second</p>
+            <div class="value value2"></div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name3">$main-text-color</p>
+            <div class="value value3"></div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name4">$main-text-color-light</p>
+            <div class="value value4"></div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name5">$blue-color-dark</p>
+            <div class="value value5"></div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name6">$blue-color-light</p>
+            <div class="value value6"></div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name7">$red-color-dark</p>
+            <div class="value value7"></div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name8">$red-color-light</p>
+            <div class="value value8"></div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name9">$green-color-light</p>
+            <div class="value value9"></div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name10">$green-color-dark</p>
+            <div class="value value10"></div>
+        </div>
+    </div>
+    <h2>2.fonts size</h2>
+        <div class="variable-box">
+            <p class="variable-name">$font-ultra-small</p>
+            <div class="value">1em = 10px</div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name">$font-small</p>
+            <div class="value">1.5em = 15px</div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name">$font-normal</p>
+            <div class="value">2em = 20px</div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name">$font-big</p>
+            <div class="value">3em = 30px</div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name">$font-huge</p>
+            <div class="value">5em = 50px</div>
+        </div>
+        <h2>3.margins & paddings</h2>
+        <div class="variable-box">
+            <p class="variable-name">$margin-small</p>
+            <div class="value">.5em 1em</div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name">$margin-normal</p>
+            <div class="value">.8em 2em</div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name">$margin-big</p>
+            <div class="value">1em 2em</div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name">$margin-huge</p>
+            <div class="value">2em 4em</div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name">$margin-left-small</p>
+            <div class="value">1em</div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name">$margin-left-big</p>
+            <div class="value">2em</div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name">$margin-right-small</p>
+            <div class="value">1em</div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name">$margin-right-big</p>
+            <div class="value">2em</div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name">$margin-top-small</p>
+            <div class="value">1em</div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name">$margin-top-normal</p>
+            <div class="value">3em</div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name">$margin-top-big</p>
+            <div class="value">5em</div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name">$margin-bottom-small</p>
+            <div class="value">1em</div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name">$margin-bottom-normal</p>
+            <div class="value">3em</div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name">$margin-bottom-big</p>
+            <div class="value">5em</div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name">$padding-small</p>
+            <div class="value">.5em 1em</div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name">$padding-normal</p>
+            <div class="value">.8em 2em</div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name">$padding-big</p>
+            <div class="value">1em 3em</div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name">$padding-huge</p>
+            <div class="value">2em 6em</div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name">$padding-left-small</p>
+            <div class="value">1em</div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name">$padding-left-big</p>
+            <div class="value">2em</div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name">$padding-right-small</p>
+            <div class="value">1em</div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name">$padding-right-big</p>
+            <div class="value">2em</div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name">$padding-top-small</p>
+            <div class="value">1em</div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name">$padding-top-normal</p>
+            <div class="value">3em</div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name">$padding-top-big</p>
+            <div class="value">5em</div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name">$padding-bottom-small</p>
+            <div class="value">1em</div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name">$padding-bottom-normal</p>
+            <div class="value">3em</div>
+        </div>
+        <div class="variable-box">
+            <p class="variable-name">$padding-bottom-big</p>
+            <div class="value">5em</div>
+        </div>
+</body>
+</html>
