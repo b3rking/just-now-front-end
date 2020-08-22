@@ -12,16 +12,7 @@
         border: 5px solid $background-color;
         border-top: 5px solid $blue-color-light;
         border-radius: 50%;
-        animation: ring 1.5s ease-in-out infinite;
-    }
-
-    &__ring-oz {
-        width: 100%;
-        height: 100%;
-        border: 5px solid $background-color;
-        border-top: 5px solid $blue-color-light;
-        border-radius: 50%;
-        animation: ring 1.5s ease-in-out infinite;
+        animation: ring 1s ease-in-out infinite;
     }
 }
 
