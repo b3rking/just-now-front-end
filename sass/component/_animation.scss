@@ -1,0 +1,28 @@
+/* ANIMATION */
+
+.m-container {
+    &.sign-up-mode {
+        &:before {
+            transform: translate(100%, -50%);
+            right: 52%;
+        }
+
+        & .left-panel {
+            pointer-events: none;
+            
+            & .image, .content {
+                transform: translateX(-80rem);
+            }
+
+        }
+
+        & .right-panel {
+            pointer-events: all;
+
+            & .image, .content {
+                transform: translateX(0rem);
+            }
+
+        }
+    }
+}

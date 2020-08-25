@@ -4,7 +4,57 @@
   box-sizing: border-box;
 }
 
-html {
+html, input {
   font-size: 10px;
   font-family: "Lato", sans-serif;
+  color: $main-text-color;
+}
+
+.heading-primary {
+  font-size: 3rem;
+  color: $main-text-color-light;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.social-text {
+  padding: .7rem 0;
+  font-size: 1.6rem;
+  margin: .5rem 0;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  width: 4.7rem;
+  height: 4.7rem;
+  font-size: 1.5rem;
+  border: 1px solid $main-text-color-light;
+  margin: 0 0.45rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 5rem;
+  color: $main-text-color-light;
+  transition: all .3s;
+
+  &:hover {
+    border-color: $blue-color-light;
+    color: $blue-color-light;
+  }
+}
+
+image {
+  width: 100%;
+  transition: .9s .6s ease-in-out;
+}
+
+.paragraphe {
+  font-size: 1.7rem;
 }

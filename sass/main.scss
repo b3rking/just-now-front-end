@@ -4,9 +4,11 @@
 @import "base/layout";
 @import "base/typographie";
 
+@import "component/animation";
 @import "component/button";
 @import "component/link";
 @import "component/loader";
+@import "component/utilities";
 
 @import "layout/footer";
 @import "layout/header";

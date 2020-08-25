@@ -1,14 +1,30 @@
 .btn {
   text-decoration: none;
-  padding: $padding-huge;
+  width: 15rem;
+  height: 4.9rem;
+  border: none;
+  outline: none;
+  border-radius: 5rem;
+  cursor: pointer;
+  background-color: $blue-color-light;
+  color: $background-color;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  margin: 10px 0;
+  transition: all .3s linear;
+
   &-transparent {
     background: transparent;
+    border: 2px solid $background-color;
+    font-weight: 600;
+    font-size: 1.8rem;
   }
   &-filled {
 
   }
   &:hover {
-
+    background-color: $blue-color-dark;
   }
   &:active {
 
