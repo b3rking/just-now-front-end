@@ -3,10 +3,9 @@ const sign_up_btn = document.querySelector("#sign-up-btn");
 const container = document.querySelector(".m-container");
 
 sign_in_btn.addEventListener('click', () => {
-    container.classList.add("sign-up-mode");
+    container.classList.remove("sign-up-mode");
 });
 
 sign_up_btn.addEventListener('click', () => {
     container.classList.add("sign-up-mode");
-    console.log("i'm clicked!");
 });

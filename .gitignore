@@ -4,6 +4,7 @@
 ### Sass ###
 .sass-cache/
 node_modules
+MonoUse
 *.css.map
 *.sass.map
 *.scss.map

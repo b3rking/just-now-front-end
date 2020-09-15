@@ -37,6 +37,7 @@ form {
   grid-row: 1 / 2;
   padding: 1rem 0;
   overflow: hidden;
+  transition: 0.2s 0.7s ease-in-out;
 
   &.sign-in-form {
     z-index: 1;
@@ -56,6 +57,7 @@ form {
   display: grid;
   z-index: 5;
   grid-template-columns: 1fr;
+  transition: 1s 0.7s ease-in-out;
 }
 
 .input-field {
@@ -132,5 +134,47 @@ form {
 
   & .content, .image {
     transform: translate(80rem);
+  }
+}
+
+@media (max-width: 870px) {
+  .m-container {
+    min-height: 80rem;
+    height: auto;
+
+    &:before {
+      display: none;
+    }
+  }
+
+  .signin-signup {
+    width: 100%;
+    left: 50%;
+    top: 95%;
+    transform: translate(-50%, -100%);
+  }
+
+  .panels-container {
+    background: green;
+    z-index: 10;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+  }
+
+  .panel {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .right-panel {
+  
+    & .content, .image {
+      transform: translateX(0rem);
+    }
+  }
+
+  .image {
+    width: 20rem;
   }
 }

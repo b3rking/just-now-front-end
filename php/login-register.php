@@ -58,10 +58,10 @@ require_once "header.php";
                 <h3 class="title">New here?</h3>
                 <p class="paragraphe">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla dolores est neque accusamus numquam magni soluta enim illo sequi. Doloribus suscipit cum ullam dolor nulla iste quis iure libero culpa.</p>
                 <button class="btn btn-transparent" id="sign-up-btn">Sign Up</button>
+                
 
                 <img src="../vendor/image/8.svg" class="image" alt="image">
             </div>
-            
         </div>
 
         <div class="panel right-panel">

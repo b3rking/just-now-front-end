@@ -2,6 +2,20 @@
 
 .m-container {
     &.sign-up-mode {
+        & .signin-signup {
+            left: 25%;
+        }
+
+        & form.sign-in-form {
+            z-index: 1;
+            visibility: hidden;
+        }
+
+        & form.sign-up-form {
+            z-index: 2;
+            visibility: visible;
+        }
+
         &:before {
             transform: translate(100%, -50%);
             right: 52%;
